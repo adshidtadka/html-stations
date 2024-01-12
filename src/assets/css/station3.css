@@ -1,0 +1,23 @@
+/* BEMの命名規則に従ってクラス名を設定 */
+.card {
+  width: 288px; /* 横幅を指定 */
+  background-color: #fff; /* 背景の色を指定 */
+  padding: 16px; /* カードの中の余白を指定 */
+}
+
+.card__img-top {
+  width: 288px; /* 画像の横幅を指定 */
+  height: 182px; /* 画像の高さを指定 */
+  margin-bottom: 8px; /* 画像の下の余白を指定 */
+}
+
+.card__title {
+  font-size: 14px; /* タイトルの文字の大きさを指定 */
+  color: #282828; /* タイトルの文字の色を指定 */
+  margin-bottom: 4px; /* タイトルの下の余白を指定 */
+}
+
+.card__description {
+  font-size: 12px; /* 説明の文字の大きさを指定 */
+  color: #282828; /* 説明の文字の色を指定 */
+}
